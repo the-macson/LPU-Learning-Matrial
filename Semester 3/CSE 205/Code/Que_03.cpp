@@ -18,11 +18,11 @@ void insertion(int arr[], int n){
         {
             cout << arr[i] <<" ";
         }
-         
+        cout <<endl;
     }
     else
     {
-        cout << "Wrong position";
+        cout << "Wrong position" << endl;
     }
 }
 void Deletion(int arr[],int n){
@@ -40,8 +40,9 @@ void Deletion(int arr[],int n){
         {
             cout << arr[i] << " ";
         }
+        cout << endl;
     }else{
-        cout << "Wrong position";
+        cout << "Wrong position" << endl;
     }
    
 }
@@ -82,4 +83,10 @@ int main()
             break;
         }
     }
+    cout << "Final Result Array : ";
+    for (int i = 0; i < n; i++)
+    {
+        cout << arr[i] <<" ";
+    }
+    
 }
